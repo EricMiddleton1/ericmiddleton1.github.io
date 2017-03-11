@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)file:///home/eric/Documents/ericmiddleton1.github.io/index.html# -->
+<html class=" js canvas canvastext geolocation crosswindowmessaging websqldatabase indexeddb hashchange historymanagement draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions  video audio localstorage sessionstorage webworkers applicationcache svg smil svgclippaths  fontface"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Eric Middleton</title>
+  <meta name="description" content="Engineering portfolio">
+  <meta name="keywords" content="engineering, computer, computer enginering, portfolio">
+  
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+	  <div id="welcome">
+	    <h2>Eric Middleton</h2>
+	  </div><!--close welcome-->			  	
+	</header>
+	
+	<nav>
+	  <div id="menubar">
+        <ul id="nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="current"><a href="projects.html">Projects</a></li>
+          <li><a href="experience.html">Experience</a></li>
+					<li><a href="reflections.html">Reflections</a></li>
+        </ul>
+      </div><!--close menubar-->	
+    </nav>	
+    
+	<div id="site_content">		
+
+      <div class="slideshow">
+	    <ul class="slideshow">
+          <li class="show" style="opacity: 1;"><img width="940" height="300" src="images/home_1.jpg" alt=""></li>
+          <li class="" style="opacity: 0;"><img width="940" height="300" src="images/home_2.jpg" alt=""></li>
+        <li id="slideshow-caption" class="caption" style="opacity: 0.6; bottom: 0px; display: block;"><div class="slideshow-caption-container"><p></p></div></li></ul> 
+	  </div><!--close slideshow-->	
+
+	  <div class="sidebar_container">       
+        <div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:ericm@iastate.edu">ericm@iastate.edu</a></p>
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->
+       </div><!--close sidebar_container-->	
+
+	  <div id="content">
+        <div class="content_item">
+		  <h1>Engineering Projects</h1> 
+          <p>This page documents some of the many engineering projects I've completed while pursuing my undergraduate degree.</p>   				  
+		  <div class="content_imagetext">
+		    <div class="content_image">
+		      <img src="images/quad.jpg" alt="image1">
+	        </div>
+				<h2>MicroCART</h2>
+		    <p>MicroCART is a senior design project in which we are to create a modular and easy-to-use quadcopter platform for research and high level classes. 
+					The quadcopter is controlled by a ZyboBoard, a development board that features a Zync7000 SoC that combines a dual-core ARM processor and an FPGA. 
+					My tasks for this project include researching and purchasing hardware upgrades, the development and testing of a secondary WiFi microcontroller 
+					to allow the quadcopter to communicate with the groundstation over WiFi, integrating an optical flow sensor into the quadcopter software, 
+					and general software architecture design.
+				<br><br><a href=http://may1716.sd.ece.iastate.edu/>More information about the MicroCART project can be found here</a></br></br></p>
+		  </div><!--close content_imagetext-->		  
+		 		</div><!--close content_item-->
+		  <div class="content_imagetext">
+		    <div class="content_image">
+		      <img src="images/stickman.jpg" alt="image1">
+	        </div>
+				<h2>Sound Reactive LED Stickman Costume</h2>
+		    <p>The Sound Reactive LED Stickman was a halloween costume that I made as a personal project during Fall 2015. The costume consists of over 250 digitally controlled
+					RGB LEDs in the shape of a stick figure that are attached to a sweatshirt and sweatpants. The audio subsystem consists of a microphone, preamplifier circuit, 
+					and a custom five band spectrum analyzer circuit. The spectrum analyzer uses five 4th-order bandpass filters with peak detectors. An ATMega328p microcontroller 
+					connects to the analog and digital subsystem and controls the LED effects.
+					<br><br><a href=https://github.com/EricMiddleton1/MusicLightSuit>The software for this project can be found on my GitHub page</a></br></br></p>
+		  </div><!--close content_imagetext-->		  
+		 		</div><!--close content_item-->
+		  <div class="content_imagetext">
+		    <div class="content_image">
+		      <img src="images/plasma.jpg" alt="image1">
+	        </div>
+				<h2>Plasma Speaker</h2>
+		    <p>A plasma speaker is a device that uses electrical plasma to generate sound waves in the air. To acheive this effect, the plasma arc is driven by a high frequency 
+					square wave that is modulated with the audio frequency signal. While there are many circuit schematics available online to control a plasma speaker, 
+					most of them didn't provide a very high quality result. So, I created my own circuit that performs audio input mixing and filtering, creates a PWM signal using a triangle 
+					wave generator and comparator, and drives a high power N channel FET with the PWM signal. I found that the sound quality of my circuit was much better than other circuits 
+					that I had tried.
+				<br><br><a href=images/plasma_schematic.pdf>The schematic for the circuit can be found here</a></br></br></p>
+		  </div><!--close content_imagetext-->		  
+		 		</div><!--close content_item-->
+
+      </div><!--close content-->   
+	
+	</div><!--close site_content-->  	
+  
+    <footer>
+	  <a href="index.html">Home</a> | <a href="projects.html">Projects</a> | <a href="experience.html">Experience</a> | <a href=reflections.html">Reflections</a><br><br>
+	  <font color="#aaaaaa">website template by <a href="http://www.freehtml5templates.co.uk/"><font color="#aaaaaa">Free HTML5 Templates</font></a></font>
+    </footer> 
+  
+  </div><!--close main-->
+  
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+  
+
+
+</body></html>
