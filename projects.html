@@ -66,6 +66,34 @@
 		 		</div><!--close content_item-->
 		  <div class="content_imagetext">
 		    <div class="content_image">
+		      <img src="images/rhopalia.png" alt="image1">
+	        </div>
+				<h2>Rhopalia</h2>
+		    <p>Rhopalia is an open source and cross-platform network-based LED light control system that I'm developing as a personal project. Rhopalia is written in C++ using the 
+					boost libraries for C++ to ensure cross-platform support.
+					A Rhopalia instance consists of one LightHub, plus one or more LightNode instances. Rhopalia uses the UDP protocol to automatically discover LightNode instances on the 
+					network and send color updates. Example LightNode implementations that I've created include LightNode-RPi (LightNode for Raspberry pi, supports up to 5 analog strips, and 
+					either one APA102 digital strip or one APA102-based LED Matrix), LightNode-ESP (LightNode for ESP8266, supports one APA102 digital strip), 
+					LightNode-Visualizer (renders an LED Matrix on an OpenGL-supported display), and LightNode-Simulator (cross-platform simulator that supports analog, digital, and matrix 
+					strips). The Rhopalia system supports different light effects, which are classes that implement the LightEffect interface. Currently, the most noteworthy effects are 
+					Sound-reactive effects that create colorful effects for all types effects (shown in video below):
+					<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/yNHdCHCch2E" frameborder="0" allowfullscreen></iframe></br></br></p>
+		  </div><!--close content_imagetext-->		  
+		  <div class="content_imagetext">
+		    <div class="content_image">
+		      <img src="images/speaker.jpg" alt="image1">
+	        </div>
+				<h2>Portable Speaker</h2>
+		    <p>This speaker is a personal project that is still in development. The speaker consists of one bass driver and two treble drivers in a 2.1 channel configuration.
+					I used Sallen-Key lowpass and highpass filters to cross over the audio signal from the bass driver to the trebble drivers, and additional filters to sculpt the bass
+					extension. I chose a crossover frequency of approximately 350Hz. This allowed me to perform baffle-step compensation (which occurs at that same frequency) by 
+					simply increasing the gain of the bass driver. The speaker box was designed using WinISD, and is ported with a resonant frequency of 58Hz, and the speaker is reasonably 
+					flat from 60Hz to 20Khz.
+					<br><br><a href = "images/freq_full.jpg"><img src= "images/freq.jpg"></a></br></br></p>
+		  </div><!--close content_imagetext-->		  
+		 		</div><!--close content_item-->
+		  <div class="content_imagetext">
+		    <div class="content_image">
 		      <img src="images/stickman.jpg" alt="image1">
 	        </div>
 				<h2>Sound Reactive LED Stickman Costume</h2>
@@ -75,7 +103,6 @@
 					connects to the analog and digital subsystem and controls the LED effects.
 					<br><br><a href=https://github.com/EricMiddleton1/MusicLightSuit>The software for this project can be found on my GitHub page</a></br></br></p>
 		  </div><!--close content_imagetext-->		  
-		 		</div><!--close content_item-->
 		  <div class="content_imagetext">
 		    <div class="content_image">
 		      <img src="images/plasma.jpg" alt="image1">
